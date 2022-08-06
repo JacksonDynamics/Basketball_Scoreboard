@@ -1,8 +1,41 @@
+@font-face {
+    font-family: "Timer";
+    src: url(CursedTimerULiL.ttf);
+}
+
 body {
     margin: 0;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    background-color: #1B244A;
+    color: #EEEEEE;
+    height: 500px;
 }
+
+/* .score-el {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+#home-score,
+#guest-score {
+    background-color: #080001;    
+    border-radius: 10px;
+    font-family: Timer;
+    font-size: 80px;
+    margin: 0;
+    height: 120px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F94F6D
+}
+
