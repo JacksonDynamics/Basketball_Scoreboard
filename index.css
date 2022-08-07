@@ -60,6 +60,10 @@ body {
   font-family: Timer;
 }
 
-/* #reset {
-    
-} */
+#reset {
+  background-color: #1b244a;
+  border: 1px solid #9aabd8;
+  border-radius: 6px;
+  color: #9aabd8;
+  padding: 11px;
+}
