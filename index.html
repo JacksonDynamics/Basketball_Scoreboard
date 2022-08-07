@@ -15,18 +15,17 @@
             <div id="add-points-btns-guest">
                 <button 
                     id="plus-one-point-home"
-                    class="plus-one-point" 
-                    onclick="increment()">+1
+                    class="plus-point" onclick="increment1Home()">+1
                 </button>
                 <button 
                     id="plus-two-point-home"
-                    class="plus-one-point"
-                    onclick="increment()">+2
+                    class="plus-point"
+                    onclick="increment2Home()">+2
                 </button>
                 <button 
                     id="plus-three-point-home"
-                    class="plus-one-point"
-                    onclick="increment()">+3
+                    class="plus-point"
+                    onclick="increment3Home()">+3
                 </button>
             </div>
         </div>
@@ -36,20 +35,26 @@
             <div id="add-points-btns-guest">
                 <button 
                     id="plus-one-point-guest"
-                    class="plus-one-point" 
-                    onclick="increment()">+1
+                    class="plus-point" 
+                    onclick="increment1Guest()">+1
                 </button>
                 <button 
                     id="plus-two-point-guest"
-                    class="plus-one-point"
-                    onclick="increment()">+2
+                    class="plus-point"
+                    onclick="increment2Guest()">+2
                 </button>
                 <button 
                     id="plus-three-point-guest"
-                    class="plus-one-point"
-                    onclick="increment()">+3
+                    class="plus-point"
+                    onclick="increment3Guest()">+3
                 </button>
             </div>
+        </div>
+        <div>
+            <button 
+                id="reset" 
+                onclick="reset()">New Game
+            </button>
         </div>
     </div>
     <script src="index.js"></script>
