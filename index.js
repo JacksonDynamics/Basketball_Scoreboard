@@ -1,39 +1,41 @@
-let score = 0;
+let homeScoreBoard = 0;
+let guestScoreBoard = 0;
 let homeScore = document.getElementById("home-score");
 let guestScore = document.getElementById("guest-score");
 
 function increment1Home() {
-    score += 1;
-    homeScore.textContent = score;
+    homeScoreBoard += 1;
+    homeScore.textContent = homeScoreBoard;
 }
 
 function increment2Home() {
-    score += 2;
-    homeScore.textContent = score;
+    homeScoreBoard += 2;
+    homeScore.textContent = homeScoreBoard;
 }
 
 function increment3Home() {
-    score += 3;
-    homeScore.textContent = score;
+    homeScoreBoard += 3;
+    homeScore.textContent = homeScoreBoard;
 }
 
 function increment1Guest() {
-    score += 1;
-    guestScore.textContent = score;
+    guestScoreBoard += 1;
+    guestScore.textContent = guestScoreBoard;
 }
 
 function increment2Guest() {
-    score += 2;
-    guestScore.textContent = score;
+    guestScoreBoard += 2;
+    guestScore.textContent = guestScoreBoard;
 }
 
 function increment3Guest() {
-    score += 3;
-    guestScore.textContent = score;
+    guestScoreBoard += 3;
+    guestScore.textContent = guestScoreBoard;
 }
 
 function reset() {
-    score = 0;
-    homeScore.textContent = score;
-    guestScore.textContent = score;
+    homeScoreBoard = 0;
+    guestScoreBoard = 0;
+    homeScore.textContent = homeScoreBoard;
+    guestScore.textContent = guestScoreBoard;
 }
